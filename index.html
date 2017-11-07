@@ -212,91 +212,55 @@
     </section>
 
     <!-- Contact -->
- <!--     <section id="contact">
+    <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Get in touch</h2>
-            <h3 class="section-subheading text-muted">Make your care request and we'll be in touch as soon as we can.</h3>
+            <h3 class="section-subheading text-muted">Leave your details and we will contact you asap to discuss your needs.</h3>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-12" id="mc_embed_signup">
-            <form id="contactForm" name="sentMessage" action="https://tech.us15.list-manage.com/subscribe/post?u=00bbc6e6ae92c8d30fd577329&amp;id=5222e5a460" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div class="row">
-                <div class="col-md-8 offset-2">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name." name="FNAME">
-                    <p class="help-block text-danger"></p>
+            <div class="form-container">
+              <form id="SignUpForm" action="https://getsimpleform.com/messages?form_api_token=6254d3ad1b1387f36d484f5e425cd88b" method="post">
+                <div class="row">
+                  <div class="col-md-8 offset-2">
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="name" placeholder="Your Name *" required data-validation-required-message="Please enter your name." data-schema-key="name">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="phone" placeholder="Your Phone Number *" required data-validation-required-message="Please enter your phone number." data-schema-key="phone">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="email" name="email" placeholder="Your e-mail address *" required data-validation-required-message="Please enter your email address." data-schema-key="email">
+                      <p class="help-block text-danger"></p>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address. Don't forget to check your spam folder!" name="EMAIL">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number." name="MMERGE2">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="postcode" type="text" placeholder="Your Postcode *" required data-validation-required-message="Please enter your post code." name="MMERGE3">
-                    <p class="help-block text-danger"></p>
+
+                  <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                      <input type='hidden' name='redirect_to' value='http://sharecare.machinemedicine.com#contact'/>
+                    </div>
+
+                    <div class="clear">
+                      <input type="submit" value="Make Request" name="subscribe" id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase text-center">
+                      <div id="confirmDiv" style="display: none">
+                        <h4>Thanks!</h4>
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-                <div class="clearfix"></div>
-
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
-
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_00bbc6e6ae92c8d30fd577329_5222e5a460" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Make Request" name="subscribe" id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase text-center"></div>
-                  </div>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </section> --> -->
-
-<section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Get in touch and find out more</h2>
-                    <hr class="primary">
-                    <p>Leave your details and we will contact you asap to discuss your needs.</p>
-
-                    <div class="form-container">
-                        <form id="SignUpForm" action="https://getsimpleform.com/messages?form_api_token=6254d3ad1b1387f36d484f5e425cd88b" method="post">
-                            <input type="text" name="name" placeholder="Your Name *" required="" data-validation-required-message="Please enter your name." data-schema-key="name">
-
-                            <input type="text" name="phone" placeholder="Your Phone Number *" required="" data-validation-required-message="Please enter your phone number." data-schema-key="phone">
-
-                            <input type="email" name="email" placeholder="Your e-mail address *" required="" data-schema-key="email">
-
-                            <button type="submit" class="btn btn-outline btn-xl page-scroll">Submit</button>
-                            <div id="confirmDiv" style="display: none">
-                                <h4>Thanks!</h4>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+44-7984-123-679</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-            </div>
-        </div>
     </section>
-
-
 
     <section id="contact">
         <div class="container">
